@@ -1,0 +1,50 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Build directories
+target/
+bin/
+out/
+build/
+
+# Dependency directories
+node_modules/
+
+# Log files
+*.log
+
+# .env file (you can add your environment-specific variables here)
+.env
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+.mvn/
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.bak
+
+# Ignore sensitive files (like configuration with passwords or keys)
+application.properties
+application.yml
+
+# Ignore generated files for Docker and Kubernetes
+.docker/
+.kubernetes/
